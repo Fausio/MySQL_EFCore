@@ -1,7 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MVC_MySQL_EFCore.Models;
+using cOREsIX.Models;
 
-namespace MVC_MySQL_EFCore
+namespace cOREsIX
 {
     public class MyDbContext : DbContext
     {
