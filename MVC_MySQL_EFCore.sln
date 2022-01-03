@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVC_MySQL_EFCore", "MVC_MySQL_EFCore\MVC_MySQL_EFCore.csproj", "{D7EE6A05-36DB-4CBA-8974-1CCFF3DDC3C4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7EE6A05-36DB-4CBA-8974-1CCFF3DDC3C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7EE6A05-36DB-4CBA-8974-1CCFF3DDC3C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7EE6A05-36DB-4CBA-8974-1CCFF3DDC3C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7EE6A05-36DB-4CBA-8974-1CCFF3DDC3C4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6DFF9285-883A-46FE-A30B-10CA2AEC2861}
+	EndGlobalSection
+EndGlobal
