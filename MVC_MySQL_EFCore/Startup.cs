@@ -8,6 +8,8 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using Pomelo.EntityFrameworkCore.MySql;
 
 namespace MVC_MySQL_EFCore
 {
@@ -23,6 +25,8 @@ namespace MVC_MySQL_EFCore
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<MyDbContext>(options => options.UseMySql(Configuration.GetConnectionString("MySQLConnection")));
+
             services.AddControllersWithViews();
         }
 
